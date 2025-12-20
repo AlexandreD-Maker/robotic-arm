@@ -14,5 +14,5 @@ The goal of this project is to design and build a stable and fully fonctionnal r
 
 This project is currently under development.
 
-Ongoing work includes CAD design, electrical schematic, developping the control algorithm and creating the documentation.
+Ongoing work includes CAD design, developping the control algorithm and creating the documentation.
 

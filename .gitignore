@@ -2,3 +2,7 @@
 
 .DS_Store
 Thumbs.db
+.token
+electronics/*
+!electronics/circuit_diagram.kicad_sch
+CAD/
