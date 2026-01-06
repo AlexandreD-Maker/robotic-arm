@@ -31,6 +31,7 @@ The goal is to design and build a functional and stable robotic arm by using 3D 
 
 - **Arduino UNO R3**
 - **MG996R / SG90 servos** (depending on the joint)
+- **B10K potentiometers** (x5 one for each servos)
 - **3D printing** (PLA)
 - **Github Pages** for documentation
 ---
