@@ -18,8 +18,8 @@ void setup() {
 void loop() {
     
     readPot();
-    for(int i = 0; i < 5; i++) {
-        moveMotor(i, motorAngle[i]);
+    for(int i = 0; i < NUMBER_MOTOR; i++) {
+        moveMotor(Joint(i), motorAngle[i]);
     }
 
 }

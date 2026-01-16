@@ -2,12 +2,18 @@
 #include "control.h"
 #include "motors.h"
 
-uint8_t motorAngle[5];
+uint8_t motorAngle[NUMBER_MOTOR];
+
+uint8_t potPin[NUMBER_MOTOR] = {
+    BASE_POT_PIN,
+    SHOULDER_POT_PIN,
+    ELBOW_POT_PIN,
+    WRIST_POT_PIN,
+    GRIPPER_POT_PIN
+};
 
 void readPot() {
-    motorAngle[BASE] = map(analogRead(BASE_POT_PIN), 0, 1023, 0, 180);
-    motorAngle[SHOULDER] = map(analogRead(SHOULDER_POT_PIN), 0, 1023, 0, 180);
-    motorAngle[ELBOW] = map(analogRead(ELBOW_POT_PIN), 0, 1023, 0, 180);
-    motorAngle[WRIST] = map(analogRead(WRIST_POT_PIN), 0, 1023, 0, 180);
-    motorAngle[GRIPPER] = map(analogRead(GRIPPER_POT_PIN), 0, 1023, 0, 180);
+    for(uint8_t i = 0; i < NUMBER_MOTOR; i++) {
+        motorAngle[i] = map(analogRead(potPin[i]), 0, 1023, 0, 180);
+    }
 }

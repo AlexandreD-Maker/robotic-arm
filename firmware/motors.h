@@ -9,7 +9,7 @@
 #pragma once
 #include <Servo.h>
 
-extern Servo motors[5];
+extern Servo motors[NUMBER_MOTOR];
 
 void initMotors();
-void moveMotor(uint8_t motor, uint8_t angle);
+void moveMotor(Joint motor, uint8_t angle);

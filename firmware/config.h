@@ -9,6 +9,8 @@
 #pragma once
 #include <Arduino.h>
 
+const uint8_t NUMBER_MOTOR = 5;
+
 // Motor pins (PWM capable)
 const uint8_t BASE_MOTOR_PIN = 3;
 const uint8_t SHOULDER_MOTOR_PIN = 5;

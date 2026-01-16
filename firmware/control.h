@@ -9,6 +9,6 @@
 #pragma once
 #include "config.h"
 
-extern uint8_t motorAngle[5];
+extern uint8_t motorAngle[NUMBER_MOTOR];
 
 void readPot();
