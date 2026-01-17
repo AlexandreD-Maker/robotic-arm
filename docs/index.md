@@ -22,7 +22,7 @@ The goal is to design and build a functional and stable robotic arm by using 3D 
 
 - **CAD/** - 3D models (STEP, STL, drawings)
 - **electronics/** Circuit diagram
-- **src/** Control code
+- **firmware/** Control code
 - **docs/** Documentation
 - **assets/** Images and videos
 ---
