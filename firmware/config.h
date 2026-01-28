@@ -2,7 +2,8 @@
  * @file config.h
  * @brief Global configuration and system definitions
  * 
- * This file centralizes all hardware mappings, system-wide constants, and shared enumeration used by the robotic arm firmware
+ * This file centralizes all hardware mappings, system-wide constants,
+ * and shared enumeration used by the robotic arm firmware
  * 
  */
 
@@ -36,4 +37,10 @@ enum Joint {
     ELBOW,
     WRIST,
     GRIPPER
+};
+
+// Control mode indices
+enum ControlMode {
+    MANUAL = 0,
+    CODE_CONTROL
 };
