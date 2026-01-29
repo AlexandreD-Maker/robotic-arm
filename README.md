@@ -35,5 +35,5 @@ This project is currently under development.
 
 Ongoing work includes:
 - CAD design and assembly validation
-- development of the control algorithm
+- ~~development of the control algorithm~~
 - creation and expansion of the technical documentation.
