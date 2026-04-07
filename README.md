@@ -7,7 +7,7 @@ It includes:
 - Arduino code
 - CAD designs
 - Electrical schematic
-- Documentation (Github Pages)
+- [Documentation](docs/index.md) (Github Pages)
 ---
 
 ## Design evolution
