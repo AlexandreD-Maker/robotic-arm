@@ -35,3 +35,8 @@ The goal is to design and build a functional and stable robotic arm by using 3D 
 - **3D printing** (PLA)
 - **Github Pages** for documentation
 ---
+
+## 📄 Documentation
+
+- **[Electronics](/docs/electronics/README.md)**
+- **[Firmware](/firmware/)** (each source file has a doxygen documentation)

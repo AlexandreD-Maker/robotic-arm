@@ -72,3 +72,4 @@ The complete schematic is also available as a PDF in this directory for detailed
 
 - **Schematic design**: KiCad 9.0.6
 
+[Main page](../index.md)
